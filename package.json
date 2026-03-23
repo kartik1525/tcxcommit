@@ -1,0 +1,21 @@
+{
+  "name": "tcxcommit",
+  "version": "1.0.8",
+  "private": true,
+  "workspaces": [
+    "cli",
+    "web"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=cli",
+    "web": "npm run dev --workspace=web"
+  },
+  "keywords": [
+    "git",
+    "commit",
+    "ai",
+    "tcxcommit"
+  ],
+  "author": "",
+  "license": "ISC"
+}
